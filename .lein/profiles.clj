@@ -1,4 +1,4 @@
-{:user {:plugins [[cider/cider-nrepl "0.8.2-SNAPSHOT"]
+{:user {:plugins [[cider/cider-nrepl "0.9.0-SNAPSHOT"]
                   [lein-cloverage "1.0.2"]
                   [refactor-nrepl "0.1.0"]]
         :dependencies [[pjstadig/humane-test-output "0.6.0"]]
