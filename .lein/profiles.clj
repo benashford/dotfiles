@@ -3,6 +3,8 @@
                   [lein-ancient "0.6.7"]
                   [lein-pprint "1.1.2"]]
         :dependencies [[org.clojure/tools.nrepl "0.2.10"]
-                       [pjstadig/humane-test-output "0.7.0"]]
+                       [pjstadig/humane-test-output "0.7.0"]
+                       [spyscope "0.1.5"]]
         :injections [(require 'pjstadig.humane-test-output)
-                     (pjstadig.humane-test-output/activate!)]}}
+                     (pjstadig.humane-test-output/activate!)
+                     (require 'spyscope.core)]}}
