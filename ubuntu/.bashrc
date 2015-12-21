@@ -1,7 +1,5 @@
 # Aliases
 
-source /etc/bash.bashrc
-
 alias ls="ls -GF"
 alias ll="ls -laGF"
 
