@@ -1,1 +1,2 @@
 xrandr --dpi 180
+xmodmap /home/ben/.xmodmap
