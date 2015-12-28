@@ -1,5 +1,7 @@
 # Aliases
 
+export TERM=xterm-256color
+
 alias ls="ls -GF"
 alias ll="ls -laGF"
 

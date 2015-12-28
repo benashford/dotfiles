@@ -1,0 +1,4 @@
+clear mod1
+clear mod4
+keycode 108 = Alt_R
+add mod1 = Alt_R
