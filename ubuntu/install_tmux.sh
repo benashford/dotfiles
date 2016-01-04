@@ -2,6 +2,12 @@
 
 set -e
 
+# Pre-requisited
+
+apt-get -y install libevent-dev
+
+# tmux-mem-cpu-load
+
 mkdir -p /usr/src/tmux-mem-cpu-load
 pushd /usr/src/tmux-mem-cpu-load
 git clone --depth=1 https://github.com/thewtex/tmux-mem-cpu-load.git .
@@ -9,6 +15,9 @@ cmake .
 make
 make install
 popd
+rm -rf /usr/src/tmux-mem-cpu-load
+
+# Tmux itself
 
 mkdir -p /usr/src/tmux
 pushd /usr/src/tmux
@@ -19,3 +28,4 @@ pushd tmux-2.1
 make install
 popd
 popd
+rm -rf /usr/src/tmux
