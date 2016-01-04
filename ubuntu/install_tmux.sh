@@ -4,7 +4,7 @@ set -e
 
 # Pre-requisited
 
-apt-get -y install libevent-dev
+apt-get -y install libevent-dev libncurses5-dev
 
 # tmux-mem-cpu-load
 
