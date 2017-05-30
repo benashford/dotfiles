@@ -2,7 +2,7 @@
 
 export PATH=$HOME/bin:$HOME/.rbenv/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/sbin:$(echo $PATH | sed -e "s/:\/usr\/local\/bin//" | sed -e "s/:\/Users\/ben\/\.rbenv\/shims//")
 
-source $HOME:/.cargo/env
+source $HOME/.cargo/env
 
 eval "$(rbenv init -)"
 
