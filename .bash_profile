@@ -10,9 +10,6 @@ eval "$(rbenv init -)"
 
 eval "$(pyenv init -)"
 
-export NVM_DIR="$HOME/.nvm"
-. "$(brew --prefix nvm)/nvm.sh"
-
 export PATH=bin:$PATH
 
 # Same as non-login shells
