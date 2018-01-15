@@ -36,7 +36,3 @@ PS1="[\w]\$(__git_ps1)$ "
 # clock
 
 source ~/.clock.sh
-
-# Miscellaneous
-
-export GOMAXPROCS=8
